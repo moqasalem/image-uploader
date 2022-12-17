@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://your-demo-link.your-domain">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/moqasalem/image-uploader}">
+    <a href="https://github.com/moqasalem/image-uploader">
       Solution
     </a>
     <span> | </span>
