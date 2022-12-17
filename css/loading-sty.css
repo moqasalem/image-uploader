@@ -1,0 +1,43 @@
+
+body{
+    height: 100vh;
+    background-color: #fafafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-container{
+    padding: 12px 25px 26px 25px;
+    height: 68px;
+    width: 311px;
+    background-color: white;
+    box-shadow: #b0adad -1px 1px 3px 1px;
+}
+
+.loader-container h5{
+    color: #757373;
+}
+
+.loader{
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 7px;
+}
+
+.progress{
+    position: relative;
+    width: 88px;
+    height: 7px;
+    background-color: #2f80ed;
+    border-radius: 3px;
+    animation: load 2s linear infinite;
+}
+
+
+
+/* animation */
+@keyframes load {
+    0% {left: 0px; }
+    100% {left: 230px;}
+}
