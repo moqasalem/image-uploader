@@ -19,8 +19,8 @@ class UploadController extends Controller
         else{
             $path = Storage::disk('public')->put('images',$request->file('file'));
             $url = Storage::url($path);
-           // $request->file->storeAs('images', 'test.jpg');
-            $root = "../image-uploader/framework/public";
+            // $request->file->storeAs('images', 'test.jpg');
+            $root = "framework";
             $full_path = $root .''. $url;
             $request->session()->flash('up_sess','yes');
             $request->session()->flash('pic_path',$full_path);
